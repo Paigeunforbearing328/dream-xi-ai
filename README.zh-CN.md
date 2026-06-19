@@ -163,6 +163,28 @@ AI 不必是冰冷的 API 和无状态调用。它可以是陪伴——记住你
 >
 > **XI & You — 梦之队与你，一起征战，一起夺冠。**
 
+## 常见问题（FAQ）
+
+**Q：我需要同时配置四个模型的 API Key 才能开始使用吗？**
+不需要。配置至少一个即可——从 Leo（Claude）开始是个好选择。没有 API Key 的球员会自动休板，路由自动适配可用的球员。
+
+**Q：Redis 是必须的吗？**
+不是必须的。使用 `pnpm start --memory` 可以跳过 Redis。注意：内存模式下，重启后所有会话记忆会丢失——本地开发没问题，不建议用于生产环境。
+
+**Q：多个用户可以共用一个 Dream XI 实例吗？**
+可以。多用户 OAuth 支持已在 v0.1.0 发布。每个用户拥有独立的线程和会话上下文。
+
+**Q：Dream XI 和 LangGraph / CrewAI / AutoGen 有什么区别？**
+那些框架构建*智能体图谱*。Dream XI 构建的是*球队*——持久身份、跨模型审查、共享组织记忆，以及位于中心的人类主教练。它是你 Agent CLI 上层的教练层，不是替代品。
+
+**Q：如果是新手，应该从哪个 Agent CLI 开始？**
+从 Claude Code（Leo，#10）开始。它对 MCP 的支持最好，与 Dream XI 记忆和战术系统的集成也最成熟。
+
+**Q：Dream XI 是基于某个已有项目 Fork 的吗？**
+不是。Dream XI 从零构建，采用足球主题架构。它通过统一消息适配器层与现有 Agent CLI（Claude Code、Codex CLI、Gemini CLI、opencode）集成。
+
+---
+
 ## 了解更多
 
 - **[SETUP.md](SETUP.md)** — 完整安装部署指南

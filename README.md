@@ -311,6 +311,28 @@ We're not building tools. We're building a team.
 >
 > **XI & You — 梦之队与你，一起征战，一起夺冠。**
 
+## FAQ
+
+**Q: Do I need all four model API keys to start?**
+No. Configure at least one — Leo (Claude) is a great starting point. Players without API keys are benched automatically; routes adapt to available players.
+
+**Q: Is Redis required?**
+No. Use `pnpm start --memory` to run without Redis. Note that all session memory is lost on restart — fine for local development, not recommended for production.
+
+**Q: Can multiple users share one Dream XI instance?**
+Yes. Multi-user OAuth support shipped in v0.1.0. Each user gets their own threads and session context.
+
+**Q: How is Dream XI different from LangGraph / CrewAI / AutoGen?**
+Those frameworks build *agent graphs*. Dream XI builds a *team* — persistent identity, cross-model review, shared institutional memory, and a human Head Coach at the center. It's the coaching layer above your agent CLIs, not a replacement for them.
+
+**Q: Which agent CLI should I use if I'm just getting started?**
+Start with Claude Code (Leo, #10). It has the best MCP support and the most mature integration with Dream XI's memory and tactics systems.
+
+**Q: Is Dream XI a fork of any existing project?**
+No. Dream XI is built from scratch with a football-inspired architecture. It integrates with existing agent CLIs (Claude Code, Codex CLI, Gemini CLI, opencode) through a unified message adapter layer.
+
+---
+
 ## Learn More
 
 - **[SETUP.md](SETUP.md)** — Full installation and configuration guide
