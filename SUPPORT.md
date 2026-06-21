@@ -12,6 +12,8 @@
 | 使用技巧 | [docs/TIPS.md](./docs/TIPS.md) |
 | 战术纪律与工作流 | [docs/SOP.md](./docs/SOP.md) |
 | 球队愿景 | [docs/VISION.md](./docs/VISION.md) |
+| 架构决策与技术设计 | [docs/ARCHITECTURE.md](./docs/ARCHITECTURE.md) |
+| 术语不懂？足球隐喻对照 | [docs/GLOSSARY.md](./docs/GLOSSARY.md) |
 | 贡献代码（加入球队） | [CONTRIBUTING.md](./CONTRIBUTING.md) |
 | 安全漏洞报告 | [SECURITY.md](./SECURITY.md) |
 | 赛季路线图 | [docs/ROADMAP.md](./docs/ROADMAP.md) |

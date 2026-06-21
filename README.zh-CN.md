@@ -190,6 +190,8 @@ AI 不必是冰冷的 API 和无状态调用。它可以是陪伴——记住你
 - **[SETUP.md](SETUP.md)** — 完整安装部署指南
 - **[docs/TIPS.md](docs/TIPS.md)** — 赛场锦囊
 - **[docs/VISION.md](docs/VISION.md)** — 愿景与理念
+- **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — 架构决策记录（ADR）
+- **[docs/GLOSSARY.md](docs/GLOSSARY.md)** — 术语表：足球隐喻 ↔ 技术概念对照
 - **[CONTRIBUTING.md](CONTRIBUTING.md)** — 贡献指南
 
 ## 贡献

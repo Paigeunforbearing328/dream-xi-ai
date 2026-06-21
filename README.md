@@ -338,6 +338,8 @@ No. Dream XI is built from scratch with a football-inspired architecture. It int
 - **[SETUP.md](SETUP.md)** — Full installation and configuration guide
 - **[docs/TIPS.md](docs/TIPS.md)** — Match tips, @mentions, voice companion
 - **[docs/VISION.md](docs/VISION.md)** — Our vision and philosophy
+- **[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)** — Architecture Decision Records (ADRs)
+- **[docs/GLOSSARY.md](docs/GLOSSARY.md)** — Football metaphor ↔ technical concept reference
 - **[docs/](docs/)** — Architecture decisions, feature specs, and lessons learned
 
 ## Contributing

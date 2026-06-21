@@ -11,6 +11,27 @@
 
 ---
 
+## [0.3.0-alpha] - 2026-06-21
+
+> 🏗️ 工程化赛季 — 让贡献更丝滑！
+
+### Added
+
+- **GitHub Issue 模板**（`.github/ISSUE_TEMPLATE/`）：
+  - `bug_report.md` — 伤病报告：标准化 Bug 提交格式，含环境信息、复现步骤、期望行为
+  - `feature_request.md` — 转会申请：功能请求模板，含验收标准和影响范围
+  - `question.md` — 上场答疑：引导用户先查文档再提问
+- **GitHub PR 模板**（`.github/PULL_REQUEST_TEMPLATE.md`）：入队审批清单，涵盖变更类型、影响范围、破坏性变更声明
+- **`docs/GLOSSARY.md`** — 术语表：足球隐喻 ↔ 技术概念双向对照，涵盖 30+ 术语和球员编号对照表
+- **`docs/ARCHITECTURE.md`** — 架构决策记录（ADR）：6 条关键架构决策，含背景、理由、放弃的替代方案
+
+### Changed
+
+- **`SUPPORT.md`**：新增 GLOSSARY 和 ARCHITECTURE 文档链接
+- **`docs/TIPS.md`**：新增 GLOSSARY 和 ARCHITECTURE 参考指引
+
+---
+
 ## [0.2.0-alpha] - 2026-06-19
 
 > 📚 文档增强赛季 — 更完善的战术手册！
