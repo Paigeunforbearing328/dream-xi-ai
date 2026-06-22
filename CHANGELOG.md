@@ -11,6 +11,32 @@
 
 ---
 
+## [0.4.0-alpha] - 2026-06-22
+
+> ⚙️ 工程骨架赛季 — 从纯文档到可启动的工程项目！
+
+### Added
+
+- **`package.json`**：根 Monorepo 配置，定义完整 `scripts`（`build`/`start`/`test`/`lint`/`gate`/`clean` 等），与文档中所有命令一一对应
+- **`pnpm-workspace.yaml`**：pnpm workspace 定义，支持 `packages/*` 多包结构
+- **`.gitignore`**：规范的忽略配置，覆盖 Node.js、TypeScript、IDE、OS 文件，以及 Dream XI 运行时数据（球队铁律：数据圣殿不进版本库、API Key 不提交）
+- **`.env.example`**：完整环境变量模板（SETUP.md 中提及的 `cp .env.example .env`），涵盖：
+  - 服务器 & 存储（PORT、NODE_ENV、REDIS_URL）
+  - 四名球员 API Key（Claude、GPT、Gemini、opencode）
+  - 替补球员（Kimi、GLM、MiniMax、自定义 OpenAI 兼容接口）
+  - 飞书 / Telegram / GitHub 集成
+  - MCP 配置、安全（JWT）、日志
+- **`biome.json`**：Biome lint/format 配置，实现 CONTRIBUTING.md 中描述的"球衣规范"：TypeScript 严格、no-any 警告、const 优先、安全规则、测试文件独立配置
+- **`.github/workflows/ci.yml`**：GitHub Actions CI 流水线，6 个 Job：
+  - 🧹 Lint & Format（球衣规范检查）
+  - 🔷 TypeScript 严格类型检查
+  - 🧪 Tests（Node 20 + 22 矩阵）+ 覆盖率上传
+  - 🏗️ Build 构建验证
+  - 🔒 Security 依赖审计 + 密钥扫描
+  - ✅ Quality Gate 汇总（全部通过才算进球）
+
+---
+
 ## [0.3.0-alpha] - 2026-06-21
 
 > 🏗️ 工程化赛季 — 让贡献更丝滑！

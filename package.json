@@ -1,0 +1,53 @@
+{
+  "name": "dream-xi-ai",
+  "version": "0.3.0-alpha",
+  "private": true,
+  "description": "The platform layer that turns isolated AI agents into a World Cup-level dream team.",
+  "keywords": [
+    "ai-agents",
+    "multi-agent",
+    "llm",
+    "claude",
+    "gemini",
+    "gpt",
+    "orchestration",
+    "a2a",
+    "mcp"
+  ],
+  "homepage": "https://github.com/loulanyue/dream-xi-ai#readme",
+  "bugs": {
+    "url": "https://github.com/loulanyue/dream-xi-ai/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loulanyue/dream-xi-ai.git"
+  },
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "start": "node packages/server/dist/index.js",
+    "start:dev": "pnpm -r --parallel dev",
+    "start:daemon": "node packages/server/dist/index.js --daemon",
+    "stop": "node packages/server/dist/cli.js stop",
+    "start:status": "node packages/server/dist/cli.js status",
+    "test": "pnpm -r test",
+    "test:watch": "pnpm -r test --watch",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "format": "biome format --write .",
+    "typecheck": "pnpm -r typecheck",
+    "gate": "pnpm run typecheck && pnpm run lint && pnpm run test && pnpm run build",
+    "clean": "pnpm -r clean && rimraf node_modules",
+    "prepare": "node scripts/prepare.js"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.0",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.6.0"
+  },
+  "packageManager": "pnpm@9.12.0"
+}
